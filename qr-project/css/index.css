@@ -1,0 +1,40 @@
+body {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center; 
+}
+
+.wrapper {
+    background-color: var(--wrapper-color);
+    width: 55vmin;
+    height: 87vmin;
+    border-radius: 2vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper img {
+    margin-top: 2vmin;
+    width: 51vmin;
+    height: 51vmin;
+    border-radius: 1vmin;
+}
+
+.wrapper .title {
+    color: var(--title-color);
+    font-size: 3.5vmin;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.1vmin;
+    padding: 3vmin 0;
+}
+
+.wrapper .text {
+    font-size: 2.5vmin;
+    text-align: center;
+    color: var(--text-color);
+    padding: 0 3.5vmin;
+}
